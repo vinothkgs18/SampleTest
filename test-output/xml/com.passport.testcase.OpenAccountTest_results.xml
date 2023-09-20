@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Open Account"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="9"
+           time="0.000">
+  <properties />
+  
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

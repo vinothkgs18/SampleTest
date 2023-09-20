@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test_2"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.964">
+  <properties />
+  
+  
+            <testcase name="addCustomer" time="0.357" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.204" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.200" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.196" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.205" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="demoTEst" time="0.000" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.239" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.188" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.203" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.172" classname="com.passport.testcase.AddCustomerTest" />
+      
+</testsuite>

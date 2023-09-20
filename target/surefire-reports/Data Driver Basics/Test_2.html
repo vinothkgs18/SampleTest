@@ -1,0 +1,371 @@
+<html>
+<head>
+<title>TestNG:  Test_2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test_2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 20 22:24:48 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3664 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: kathiresan Dhavamanu, Rupee<br/>
+<a href="#Output-623820846" onClick='toggleBox("Output-623820846", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-623820846" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-623820846">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Vinothkumar, Gnanasekaran, P612604<br/>
+<a href="#Output-255156436" onClick='toggleBox("Output-255156436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-255156436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-255156436">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Vinothkumar Gnanasekaran, Rupee<br/>
+<a href="#Output-2145416033" onClick='toggleBox("Output-2145416033", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2145416033" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2145416033">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Rajesh, Gunasekaran, 612604<br/>
+<a href="#Output-2055422401" onClick='toggleBox("Output-2055422401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2055422401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2055422401">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Sakthivel, Sundreasan, 612606<br/>
+<a href="#Output-530131514" onClick='toggleBox("Output-530131514", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-530131514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-530131514">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Sathish, Gunasekaran, 612604<br/>
+<a href="#Output-275448142" onClick='toggleBox("Output-275448142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-275448142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-275448142">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Suresh Sugumaran, Rupee<br/>
+<a href="#Output-353489239" onClick='toggleBox("Output-353489239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-353489239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-353489239">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Suresh, Sugumaran, 612604<br/>
+<a href="#Output-1588976146" onClick='toggleBox("Output-1588976146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1588976146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1588976146">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Sathish Gunasekaran, Rupee<br/>
+<a href="#Output-1938374337" onClick='toggleBox("Output-1938374337", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1938374337" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1938374337">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.demoTEst()'><b>demoTEst</b><br>Test class: com.passport.testcase.AddCustomerTest<br/>
+<a href="#Output-479161446" onClick='toggleBox("Output-479161446", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-479161446" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-479161446">
+DEMOTEST  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Suba, Ganeshan, 612203<br/>
+<a href="#Output-1519890812" onClick='toggleBox("Output-1519890812", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1519890812" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1519890812">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: kathiresan, Dhavamanu, 612605<br/>
+<a href="#Output-72423389" onClick='toggleBox("Output-72423389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-72423389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-72423389">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Rajesh Gunasekaran, Rupee<br/>
+<a href="#Output-1777163938" onClick='toggleBox("Output-1777163938", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1777163938" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1777163938">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Suba Ganeshan, Rupee<br/>
+<a href="#Output-2134885423" onClick='toggleBox("Output-2134885423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2134885423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2134885423">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Sakthivel Sundreasan, Rupee<br/>
+<a href="#Output-3804010" onClick='toggleBox("Output-3804010", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-3804010" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-3804010">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Sasi Ganeshan, Rupee<br/>
+<a href="#Output-470051986" onClick='toggleBox("Output-470051986", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-470051986" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-470051986">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Sasi, Ganeshan, 612203<br/>
+<a href="#Output-311487784" onClick='toggleBox("Output-311487784", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-311487784" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-311487784">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Babu, Asubathi, 612600<br/>
+<a href="#Output-1550471570" onClick='toggleBox("Output-1550471570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1550471570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1550471570">
+Clicked Customer add button<br/>
+Entered Customer first name<br/>
+Entered Customer Last name<br/>
+Entered Customer Postal code<br/>
+Clicked add Customer Submit button<br/>
+Customer created successfully<br/>
+ADDCUSTOMER  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@424fd310</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Babu Asubathi, Rupee<br/>
+<a href="#Output-1361241279" onClick='toggleBox("Output-1361241279", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1361241279" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1361241279">
+Account created successfully<br/>
+OPENACC  Passed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@1a45193b</td></tr>
+</table><p>
+</body>
+</html>

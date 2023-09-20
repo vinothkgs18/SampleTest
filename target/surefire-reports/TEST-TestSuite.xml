@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.478" tests="21" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\vinot\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="org.uncommons.reportng.escape-output" value="false"/>
+    <property name="java.class.path" value="C:\Users\vinot\eclipse-workspace\LiveProject_01\target\test-classes;C:\Users\vinot\eclipse-workspace\LiveProject_01\target\classes;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\vinot\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vinot\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vinot\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vinot\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vinot\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vinot\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vinot\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vinot\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\vinot\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\vinot\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\vinot\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vinot\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vinot\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vinot\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\vinot\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\vinot\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vinot\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\vinot\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\vinot\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\vinot\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\vinot\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vinot\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\vinot\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\vinot\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\vinot\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\vinot\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\vinot\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\vinot\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\vinot\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\vinot\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\vinot\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\vinot\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\vinot\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\vinot\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\vinot\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\vinot\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\vinot\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\vinot\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\vinot\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\vinot\.m2\repository\com\google\inject\guice\7.0.0\guice-7.0.0.jar;C:\Users\vinot\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\vinot\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\vinot\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\vinot\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\vinot\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\vinot\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\vinot\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\vinot\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\vinot\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\vinot\AppData\Local\Temp\surefire5791974917561164756\surefirebooter-20230920222445889_3.jar C:\Users\vinot\AppData\Local\Temp\surefire5791974917561164756 2023-09-20T22-24-45_776-jvmRun1 surefire-20230920222445889_1tmp surefire_0-20230920222445889_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vinot\eclipse-workspace\LiveProject_01\target\test-classes;C:\Users\vinot\eclipse-workspace\LiveProject_01\target\classes;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\vinot\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\vinot\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vinot\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vinot\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vinot\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vinot\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vinot\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vinot\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vinot\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\vinot\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\vinot\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\vinot\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\vinot\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\vinot\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\vinot\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\vinot\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\vinot\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\vinot\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\vinot\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\vinot\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\vinot\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\vinot\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\vinot\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\vinot\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\vinot\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\vinot\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\vinot\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\vinot\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\vinot\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\vinot\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\vinot\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\vinot\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\vinot\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\vinot\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\vinot\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\vinot\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\vinot\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\vinot\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\vinot\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\vinot\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\vinot\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\vinot\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\vinot\.m2\repository\com\google\inject\guice\7.0.0\guice-7.0.0.jar;C:\Users\vinot\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\vinot\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\vinot\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\vinot\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\vinot\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\vinot\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\vinot\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\vinot\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\vinot\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vinot"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\vinot\eclipse-workspace\LiveProject_01"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\vinot\AppData\Local\Temp\surefire5791974917561164756\surefirebooter-20230920222445889_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
+    <property name="user.name" value="vinot"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\vinot\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vinot\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.8"/>
+    <property name="user.dir" value="C:\Users\vinot\eclipse-workspace\LiveProject_01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\apache-maven-3.9.4\bin;C:\Users\vinot\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.8+9-LTS-211"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="loginAsBankManager" classname="com.passport.testcase.LoginTest" time="0.098">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sep 20, 2023 10:24:46 PM com.relevantcodes.extentreports.ExtentReports loadConfig
+WARNING: Unable to perform report configuration. The file C:\Users\vinot\eclipse-workspace\LiveProject_01\src	est\resources\extentconfig\ReportsConfig.xml was not found.
+Starting ChromeDriver 116.0.5845.96 (1a391816688002153ef791ffe60d9e899a71a037-refs/branch-heads/5845@{#1382}) on port 10502
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 20, 2023 10:24:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addCustomer[Vinothkumar, Gnanasekaran, P612604](1)" classname="com.passport.testcase.AddCustomerTest" time="0.357">
+    <system-out><![CDATA[Last Row==9
+Last Cell==3
+Customer added successfully with customer id :6
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[Suba, Ganeshan, 612203](2)" classname="com.passport.testcase.AddCustomerTest" time="0.239">
+    <system-out><![CDATA[Customer added successfully with customer id :7
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[Sasi, Ganeshan, 612203](3)" classname="com.passport.testcase.AddCustomerTest" time="0.205">
+    <system-out><![CDATA[Customer added successfully with customer id :8
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[Sathish, Gunasekaran, 612604](4)" classname="com.passport.testcase.AddCustomerTest" time="0.196">
+    <system-out><![CDATA[Customer added successfully with customer id :9
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[Rajesh, Gunasekaran, 612604](5)" classname="com.passport.testcase.AddCustomerTest" time="0.203">
+    <system-out><![CDATA[Customer added successfully with customer id :10
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[Suresh, Sugumaran, 612604](6)" classname="com.passport.testcase.AddCustomerTest" time="0.204">
+    <system-out><![CDATA[Customer added successfully with customer id :11
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[kathiresan, Dhavamanu, 612605](7)" classname="com.passport.testcase.AddCustomerTest" time="0.188">
+    <system-out><![CDATA[Customer added successfully with customer id :12
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[Sakthivel, Sundreasan, 612606](8)" classname="com.passport.testcase.AddCustomerTest" time="0.201">
+    <system-out><![CDATA[Customer added successfully with customer id :13
+]]></system-out>
+  </testcase>
+  <testcase name="addCustomer[Babu, Asubathi, 612600](9)" classname="com.passport.testcase.AddCustomerTest" time="0.174">
+    <system-out><![CDATA[Customer added successfully with customer id :14
+]]></system-out>
+  </testcase>
+  <testcase name="demoTEst" classname="com.passport.testcase.AddCustomerTest" time="0.0"/>
+  <testcase name="openAcc[Vinothkumar Gnanasekaran, Rupee](1)" classname="com.passport.testcase.OpenAccountTest" time="0.216">
+    <system-out><![CDATA[Last Row==9
+Last Cell==2
+Account created successfully with account Number :1016
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[Suba Ganeshan, Rupee](2)" classname="com.passport.testcase.OpenAccountTest" time="0.116">
+    <system-out><![CDATA[Account created successfully with account Number :1017
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[Sasi Ganeshan, Rupee](3)" classname="com.passport.testcase.OpenAccountTest" time="0.12">
+    <system-out><![CDATA[Account created successfully with account Number :1018
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[Sathish Gunasekaran, Rupee](4)" classname="com.passport.testcase.OpenAccountTest" time="0.126">
+    <system-out><![CDATA[Account created successfully with account Number :1019
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[Rajesh Gunasekaran, Rupee](5)" classname="com.passport.testcase.OpenAccountTest" time="0.128">
+    <system-out><![CDATA[Account created successfully with account Number :1020
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[Suresh Sugumaran, Rupee](6)" classname="com.passport.testcase.OpenAccountTest" time="0.126">
+    <system-out><![CDATA[Account created successfully with account Number :1021
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[kathiresan Dhavamanu, Rupee](7)" classname="com.passport.testcase.OpenAccountTest" time="0.125">
+    <system-out><![CDATA[Account created successfully with account Number :1022
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[Sakthivel Sundreasan, Rupee](8)" classname="com.passport.testcase.OpenAccountTest" time="0.123">
+    <system-out><![CDATA[Account created successfully with account Number :1023
+]]></system-out>
+  </testcase>
+  <testcase name="openAcc[Babu Asubathi, Rupee](9)" classname="com.passport.testcase.OpenAccountTest" time="0.115">
+    <system-out><![CDATA[Account created successfully with account Number :1024
+]]></system-out>
+  </testcase>
+  <testcase name="searchCustomer" classname="com.passport.testcase.VerifyCustomer" time="0.171">
+    <system-out><![CDATA[Vinothkumar
+]]></system-out>
+  </testcase>
+</testsuite>

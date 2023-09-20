@@ -1,0 +1,649 @@
+<html>
+<head>
+<title>TestNG:  Open Account</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Open Account</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/19</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 20 21:18:52 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (547 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.setUp()'><b>setUp</b><br>Test class: com.passport.testcase.AddCustomerTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace300604602", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace300604602'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>-1695224932</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Vinothkumar Gnanasekaran, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1724399560", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1724399560'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Sasi, Ganeshan, 612203</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1473143631", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1473143631'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Rajesh, Gunasekaran, 612604</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace56112634", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace56112634'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Suba Ganeshan, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1415979460", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1415979460'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Vinothkumar, Gnanasekaran, P612604</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1859965144", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1859965144'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Sasi Ganeshan, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1646234040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1646234040'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Sathish, Gunasekaran, 612604</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace193625667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace193625667'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Suresh, Sugumaran, 612604</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1459035867", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1459035867'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Sakthivel Sundreasan, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1077316166", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1077316166'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Suresh Sugumaran, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1303362110", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1303362110'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Sakthivel, Sundreasan, 612606</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace707250996", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace707250996'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: kathiresan, Dhavamanu, 612605</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1913113425", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1913113425'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: kathiresan Dhavamanu, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1407428730", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1407428730'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Babu Asubathi, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2124261761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2124261761'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Suba, Ganeshan, 612203</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1630968203", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1630968203'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.addCustomer()'><b>addCustomer</b><br>Test class: com.passport.testcase.AddCustomerTest<br>Parameters: Babu, Asubathi, 612600</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1754451055", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1754451055'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.AddCustomerTest.demoTEst()'><b>demoTEst</b><br>Test class: com.passport.testcase.AddCustomerTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace117249632", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace117249632'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.AddCustomerTest@4c4d27c8</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Sathish Gunasekaran, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace255041198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace255041198'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+<tr>
+<td title='com.passport.testcase.OpenAccountTest.openAcc()'><b>openAcc</b><br>Test class: com.passport.testcase.OpenAccountTest<br>Parameters: Rajesh Gunasekaran, Rupee</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace673367807", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace673367807'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:267)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.passport.testcase.OpenAccountTest@6821ea29</td></tr>
+</table><p>
+</body>
+</html>

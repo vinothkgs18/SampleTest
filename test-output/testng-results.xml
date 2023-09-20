@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="0" failed="0" skipped="20">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T21:18:52 IST" name="Data Driver Basics" finished-at="2023-09-20T21:18:53 IST" duration-ms="585">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T21:18:52 IST" name="LoginTest" finished-at="2023-09-20T21:18:52 IST" duration-ms="23">
+      <class name="com.passport.testcase.LoginTest">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.passport.testcase.LoginTest@36f48b4]" started-at="2023-09-20T21:18:52 IST" name="loginAsBankManager" finished-at="2023-09-20T21:18:52 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAsBankManager -->
+      </class> <!-- com.passport.testcase.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-09-20T21:18:52 IST" name="Open Account" finished-at="2023-09-20T21:18:53 IST" duration-ms="547">
+      <class name="com.passport.testcase.AddCustomerTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:52 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695224932595" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vinothkumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gnanasekaran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[P612604]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suba]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ganeshan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612203]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sasi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ganeshan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612203]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gunasekaran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612604]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gunasekaran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612604]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sugumaran]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612604]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kathiresan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dhavamanu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612605]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sakthivel]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sundreasan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612606]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asubathi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[612600]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="demoTEst()[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="demoTEst" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTEst -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="tearDown" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.passport.testcase.AddCustomerTest -->
+      <class name="com.passport.testcase.OpenAccountTest">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vinothkumar Gnanasekaran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suba Ganeshan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sasi Ganeshan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sathish Gunasekaran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh Gunasekaran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh Sugumaran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kathiresan Dhavamanu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sakthivel Sundreasan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Babu Asubathi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
+in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+      </class> <!-- com.passport.testcase.OpenAccountTest -->
+    </test> <!-- Open Account -->
+  </suite> <!-- Data Driver Basics -->
+</testng-results>
