@@ -4,18 +4,18 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="1.198">
+           time="1.388">
   <properties />
   
   
-            <testcase name="openAcc" time="0.124" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.216" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.127" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.127" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.127" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.116" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.126" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.120" classname="com.passport.testcase.OpenAccountTest" />
-                <testcase name="openAcc" time="0.115" classname="com.passport.testcase.OpenAccountTest" />
+            <testcase name="openAcc" time="0.147" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.144" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.135" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.152" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.142" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.132" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.280" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.132" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.124" classname="com.passport.testcase.OpenAccountTest" />
       
 </testsuite>
