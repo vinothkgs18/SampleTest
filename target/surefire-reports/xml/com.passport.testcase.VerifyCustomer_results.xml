@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Test_3"
-           tests="9"
+           tests="10"
            failures="0"
            errors="0"
            skipped="0"
-           time="1.171">
+           time="1.128">
   <properties />
   
   
-            <testcase name="searchCustomer" time="0.121" classname="com.passport.testcase.VerifyCustomer" />
-                <testcase name="searchCustomer" time="0.215" classname="com.passport.testcase.VerifyCustomer" />
-                <testcase name="searchCustomer" time="0.128" classname="com.passport.testcase.VerifyCustomer" />
-                <testcase name="searchCustomer" time="0.110" classname="com.passport.testcase.VerifyCustomer" />
-                <testcase name="searchCustomer" time="0.144" classname="com.passport.testcase.VerifyCustomer" />
+            <testcase name="searchCustomer" time="0.202" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.106" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.116" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="clickHome" time="0.032" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.123" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.113" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.117" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.102" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.117" classname="com.passport.testcase.VerifyCustomer" />
                 <testcase name="searchCustomer" time="0.100" classname="com.passport.testcase.VerifyCustomer" />
-                <testcase name="searchCustomer" time="0.110" classname="com.passport.testcase.VerifyCustomer" />
-                <testcase name="searchCustomer" time="0.136" classname="com.passport.testcase.VerifyCustomer" />
-                <testcase name="searchCustomer" time="0.107" classname="com.passport.testcase.VerifyCustomer" />
       
 </testsuite>

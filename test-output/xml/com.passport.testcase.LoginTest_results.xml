@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTest"
+<testsuite name="Test_1"
            tests="1"
            failures="0"
            errors="0"
-           skipped="1"
-           time="0.000">
+           skipped="0"
+           time="0.044">
   <properties />
   
-            <testcase name="loginAsBankManager" time="0.0" classname="com.passport.testcase.LoginTest">
-          <skipped />
-    </testcase>
   
-  
+            <testcase name="loginAsBankManager" time="0.044" classname="com.passport.testcase.LoginTest" />
+      
 </testsuite>

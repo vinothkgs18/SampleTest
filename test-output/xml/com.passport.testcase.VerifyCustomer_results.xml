@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test_3"
+           tests="10"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.094">
+  <properties />
+  
+  
+            <testcase name="searchCustomer" time="0.107" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.204" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.090" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.119" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.103" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="clickHome" time="0.029" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.112" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.116" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.100" classname="com.passport.testcase.VerifyCustomer" />
+                <testcase name="searchCustomer" time="0.114" classname="com.passport.testcase.VerifyCustomer" />
+      
+</testsuite>

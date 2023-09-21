@@ -1,74 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Open Account"
-           tests="12"
-           failures="1"
+<testsuite name="Test_2"
+           tests="10"
+           failures="0"
            errors="0"
-           skipped="11"
-           time="-1695224932.594">
+           skipped="0"
+           time="1.978">
   <properties />
-            <testcase name="setUp" time="-1695224932.595" classname="com.passport.testcase.AddCustomerTest">
-                <failure type="org.testng.TestNGException"
-                  message="
-Parameter &apos;browser&apos; is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml"
-              >
-<![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-  org.testng.internal.Parameters.createParams(Parameters.java:267)
-  org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-  org.testng.internal.Parameters.createParameters(Parameters.java:684)
-  org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-  org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-  org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-  org.testng.SuiteRunner.run(SuiteRunner.java:336)
-  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-  org.testng.TestNG.runSuites(TestNG.java:1114)
-  org.testng.TestNG.run(TestNG.java:1082)
-  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-      </failure>
-
-          </testcase>
-  
-            <testcase name="tearDown" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="addCustomer" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
-            <testcase name="demoTEst" time="0.0" classname="com.passport.testcase.AddCustomerTest">
-          <skipped />
-    </testcase>
   
   
+            <testcase name="addCustomer" time="0.201" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.338" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.215" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="demoTEst" time="0.001" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.194" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.183" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.244" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.209" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.175" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.218" classname="com.passport.testcase.AddCustomerTest" />
+      
 </testsuite>

@@ -53,7 +53,8 @@ public class TestBase {
 	
 	
 	@BeforeSuite
-	public void setUp(){
+	@Parameters({"browser"})
+	public void setUp(String browser){
 		
 		if(driver==null) {
 			
@@ -86,17 +87,17 @@ public class TestBase {
 			}
 			
 			
-			if(config.getProperty("browser").equals("firefox")) {
+			if(browser.equals("firefox")) {
 				WebDriverManager.firefoxdriver().setup();
 				driver=new FirefoxDriver();
 			}
-			else if(config.getProperty("browser").equals("chrome")) {
+			else if(browser.equals("chrome")) {
 				WebDriverManager.chromedriver().setup();
 				driver=new ChromeDriver();
 				log.debug("Helo chrome");
 			}
 			
-			else if(config.getProperty("browser").equals("edge")) {
+			else if(browser.equals("edge")) {
 				WebDriverManager.edgedriver().setup();
 				driver=new EdgeDriver();
 			}
@@ -114,7 +115,7 @@ public class TestBase {
 	public void tearDown() {
 		
 		if(driver!=null) {
-		//driver.quit();
+		//driver.close();
 		}
 	}
 	

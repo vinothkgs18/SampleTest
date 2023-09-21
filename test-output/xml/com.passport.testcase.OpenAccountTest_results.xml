@@ -1,39 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Open Account"
+<testsuite name="Test_2"
            tests="9"
            failures="0"
            errors="0"
-           skipped="9"
-           time="0.000">
+           skipped="0"
+           time="1.260">
   <properties />
   
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
-            <testcase name="openAcc" time="0.0" classname="com.passport.testcase.OpenAccountTest">
-          <skipped />
-    </testcase>
   
-  
+            <testcase name="openAcc" time="0.132" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.241" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.123" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.123" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.127" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.127" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.132" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.131" classname="com.passport.testcase.OpenAccountTest" />
+                <testcase name="openAcc" time="0.124" classname="com.passport.testcase.OpenAccountTest" />
+      
 </testsuite>

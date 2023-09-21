@@ -13,13 +13,18 @@ import com.passport.utilities.Utillities;
 public class VerifyCustomer extends TestBase{
 
 	
-	@Test(dataProvider="getData")
+	@Test(dataProvider="getData",priority=1)
 	public void searchCustomer(String name) {
 		driver.findElement(By.cssSelector(OR.getProperty("ShowCustomerButton"))).click();
 		driver.findElement(By.cssSelector(OR.getProperty("SearchCustomer"))).clear();
 		driver.findElement(By.cssSelector(OR.getProperty("SearchCustomer"))).sendKeys(name);
 		System.out.println(driver.findElement(By.xpath(OR.getProperty("CustomerData"))).getText());
 		Assert.assertEquals(name, driver.findElement(By.xpath(OR.getProperty("CustomerData"))).getText());
+	}
+	
+	@Test(priority=2)
+	public void clickHome() {
+		driver.findElement(By.cssSelector(OR.getProperty("Home"))).click();
 	}
 	
 	@DataProvider

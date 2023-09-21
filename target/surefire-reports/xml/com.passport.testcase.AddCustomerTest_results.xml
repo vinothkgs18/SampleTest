@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.269">
+           time="2.046">
   <properties />
   
   
-            <testcase name="addCustomer" time="0.276" classname="com.passport.testcase.AddCustomerTest" />
+            <testcase name="addCustomer" time="0.197" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.235" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.184" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.264" classname="com.passport.testcase.AddCustomerTest" />
                 <testcase name="addCustomer" time="0.241" classname="com.passport.testcase.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.256" classname="com.passport.testcase.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.288" classname="com.passport.testcase.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.212" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.216" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.191" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.324" classname="com.passport.testcase.AddCustomerTest" />
+                <testcase name="addCustomer" time="0.194" classname="com.passport.testcase.AddCustomerTest" />
                 <testcase name="demoTEst" time="0.000" classname="com.passport.testcase.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.358" classname="com.passport.testcase.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.239" classname="com.passport.testcase.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.224" classname="com.passport.testcase.AddCustomerTest" />
-                <testcase name="addCustomer" time="0.175" classname="com.passport.testcase.AddCustomerTest" />
       
 </testsuite>

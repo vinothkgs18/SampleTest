@@ -1,54 +1,306 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="20" passed="0" failed="0" skipped="20">
+<testng-results ignored="0" total="31" passed="30" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[LOGINASBANKMANAGER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Customer add button]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered Customer Postal code]]>
+    </line>
+    <line>
+      <![CDATA[Clicked add Customer Submit button]]>
+    </line>
+    <line>
+      <![CDATA[Customer created successfully]]>
+    </line>
+    <line>
+      <![CDATA[ADDCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[DEMOTEST  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[Account created successfully]]>
+    </line>
+    <line>
+      <![CDATA[OPENACC  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[SEARCHCUSTOMER  Passed]]>
+    </line>
+    <line>
+      <![CDATA[CLICKHOME  Passed]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Thu_Sep_21_22_47_30_IST_2023.jpg>screenshot</a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-09-20T21:18:52 IST" name="Data Driver Basics" finished-at="2023-09-20T21:18:53 IST" duration-ms="585">
+  <suite started-at="2023-09-21T22:47:15 IST" name="chrome" finished-at="2023-09-21T22:47:30 IST" duration-ms="15196">
     <groups>
     </groups>
-    <test started-at="2023-09-20T21:18:52 IST" name="LoginTest" finished-at="2023-09-20T21:18:52 IST" duration-ms="23">
+    <test started-at="2023-09-21T22:47:15 IST" name="Test_1" finished-at="2023-09-21T22:47:15 IST" duration-ms="62">
       <class name="com.passport.testcase.LoginTest">
-        <test-method signature="loginAsBankManager()[pri:0, instance:com.passport.testcase.LoginTest@36f48b4]" started-at="2023-09-20T21:18:52 IST" name="loginAsBankManager" finished-at="2023-09-20T21:18:52 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.passport.testcase.LoginTest@36f48b4]" started-at="2023-09-21T22:47:15 IST" name="loginAsBankManager" finished-at="2023-09-21T22:47:15 IST" duration-ms="44" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[LOGINASBANKMANAGER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
       </class> <!-- com.passport.testcase.LoginTest -->
-    </test> <!-- LoginTest -->
-    <test started-at="2023-09-20T21:18:52 IST" name="Open Account" finished-at="2023-09-20T21:18:53 IST" duration-ms="547">
+    </test> <!-- Test_1 -->
+    <test started-at="2023-09-21T22:47:15 IST" name="Test_2" finished-at="2023-09-21T22:47:18 IST" duration-ms="3750">
       <class name="com.passport.testcase.AddCustomerTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:52 IST" name="setUp" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1695224932595" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:15 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:15 IST" duration-ms="338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,39 +318,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:15 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:16 IST" duration-ms="183" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,39 +360,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:16 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:16 IST" duration-ms="175" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -166,39 +402,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:16 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:16 IST" duration-ms="244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -216,39 +444,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="1" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:16 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:16 IST" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -266,39 +486,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:16 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:16 IST" duration-ms="201" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -316,39 +528,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:16 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:17 IST" duration-ms="209" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -366,39 +570,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:17 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:17 IST" duration-ms="215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -416,39 +612,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:17 IST" name="addCustomer" data-provider="getData" finished-at="2023-09-21T22:47:17 IST" duration-ms="194" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -466,78 +654,40 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Clicked Customer add button]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Last name]]>
+            </line>
+            <line>
+              <![CDATA[Entered Customer Postal code]]>
+            </line>
+            <line>
+              <![CDATA[Clicked add Customer Submit button]]>
+            </line>
+            <line>
+              <![CDATA[Customer created successfully]]>
+            </line>
+            <line>
+              <![CDATA[ADDCUSTOMER  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="demoTEst()[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="demoTEst" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="demoTEst()[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-21T22:47:17 IST" name="demoTEst" finished-at="2023-09-21T22:47:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[DEMOTEST  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- demoTEst -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.passport.testcase.AddCustomerTest@4c4d27c8]" started-at="2023-09-20T21:18:53 IST" name="tearDown" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.passport.testcase.AddCustomerTest -->
       <class name="com.passport.testcase.OpenAccountTest">
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:17 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:17 IST" duration-ms="241" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -550,39 +700,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:17 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -595,39 +722,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:18 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -640,39 +744,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:18 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -685,39 +766,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:18 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -730,39 +788,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:18 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -775,39 +810,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:18 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="132" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -820,39 +832,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:18 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="132" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -865,39 +854,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAcc -->
-        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-20T21:18:53 IST" name="openAcc" data-provider="getData" finished-at="2023-09-20T21:18:53 IST" duration-ms="0" status="SKIP">
+        <test-method signature="openAcc(java.lang.String,java.lang.String)[pri:0, instance:com.passport.testcase.OpenAccountTest@6821ea29]" started-at="2023-09-21T22:47:18 IST" name="openAcc" data-provider="getData" finished-at="2023-09-21T22:47:18 IST" duration-ms="127" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -910,22 +876,226 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
+          <reporter-output>
+            <line>
+              <![CDATA[Account created successfully]]>
+            </line>
+            <line>
+              <![CDATA[OPENACC  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+      </class> <!-- com.passport.testcase.OpenAccountTest -->
+    </test> <!-- Test_2 -->
+    <test started-at="2023-09-21T22:47:18 IST" name="Test_3" finished-at="2023-09-21T22:47:30 IST" duration-ms="11371">
+      <class name="com.passport.testcase.VerifyCustomer">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:13 IST" name="setUp" finished-at="2023-09-21T22:47:15 IST" duration-ms="1793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:18 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vinothkumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sasi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sathish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="100" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kathiresan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:19 IST" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sakthivel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="searchCustomer(java.lang.String)[pri:1, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:19 IST" name="searchCustomer" data-provider="getData" finished-at="2023-09-21T22:47:20 IST" duration-ms="90" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Babu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[SEARCHCUSTOMER  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchCustomer -->
+        <test-method signature="clickHome()[pri:2, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:20 IST" name="clickHome" finished-at="2023-09-21T22:47:20 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CLICKHOME  Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickHome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.passport.testcase.VerifyCustomer@45c8d09f]" started-at="2023-09-21T22:47:30 IST" name="tearDown" finished-at="2023-09-21T22:47:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.passport.testcase.VerifyCustomer -->
+      <class name="com.passport.testcase.VerifyDepositFunc">
+        <test-method signature="verifyDepositMoney()[pri:0, instance:com.passport.testcase.VerifyDepositFunc@53812a9b]" started-at="2023-09-21T22:47:20 IST" name="verifyDepositMoney" finished-at="2023-09-21T22:47:30 IST" duration-ms="10078" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"CustomerLogin"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINOTHKUMARG', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcab686575a2af2cda45838a8766746
+*** Element info: {Using=css selector, value=CustomerLogin}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method setUp but has not been marked @Optional or defined
-in C:\Users\vinot\eclipse-workspace\LiveProject_01\src\test\resources\runner\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"CustomerLogin"}
+  (Session info: chrome=116.0.5845.188)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VINOTHKUMARG', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.188, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\vinot\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcab686575a2af2cda45838a8766746
+*** Element info: {Using=css selector, value=CustomerLogin}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at com.passport.testcase.VerifyDepositFunc.verifyDepositMoney(VerifyDepositFunc.java:14)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
 at org.testng.SuiteRunner.run(SuiteRunner.java:336)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
@@ -938,11 +1108,14 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href=Thu_Sep_21_22_47_30_IST_2023.jpg>screenshot</a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- openAcc -->
-      </class> <!-- com.passport.testcase.OpenAccountTest -->
-    </test> <!-- Open Account -->
-  </suite> <!-- Data Driver Basics -->
+        </test-method> <!-- verifyDepositMoney -->
+      </class> <!-- com.passport.testcase.VerifyDepositFunc -->
+    </test> <!-- Test_3 -->
+  </suite> <!-- chrome -->
 </testng-results>
